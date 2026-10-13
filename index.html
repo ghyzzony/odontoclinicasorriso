@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Clube do Sorriso — programas odontológicos acessíveis com atendimento de qualidade e foco na saúde bucal.">
+  <title>Clube do Sorriso | Odontoclínica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="inicio">
+    <div class="container header-inner">
+      <a class="" href="#" aria-label="Clube do Sorriso — início"> 
+        <img src="assets/brand_clube_do_sorriso2.png" alt="Logo" class="brand"> 
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Abrir menu</span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <a class="nav-link active" href="#">Início</a>
+        <a class="nav-link" href="#programas">Programas</a>
+        <a class="nav-link" href="#beneficios">Benefícios</a>
+        <a class="nav-link" href="#contato">Contato</a>
+        <a class="nav-link" href="conta.html">Paciente</a>
+      </nav>
+
+      <a class="header-cta" href="https://wa.me/5554999999999?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener noreferrer">
+        <ion-icon name="logo-whatsapp"></ion-icon>         
+        Agende sua consulta
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy container">
+        <p class="eyebrow">PROGRAMA DE CUIDADOS ODONTOLÓGICOS</p>
+        <h1 id="hero-title">Clube do Sorriso</h1>
+        <p class="hero-subtitle">Mais saúde, bem-estar e confiança<br>para o seu sorriso.</p>
+        <span class="red-rule" aria-hidden="true"></span>
+        <p class="hero-text">Programas odontológicos acessíveis, com atendimento<br class="desktop-only"> de qualidade e foco na sua saúde bucal.</p>
+        <a class="button button-primary" href="#programas">Conheça nossos Programas <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-image" role="img" aria-label="Sorriso com dentes saudáveis"></div>
+    </section>
+
+    <section class="plans section" id="programas" aria-labelledby="plans-title">
+      <div class="section-heading">
+        <div class="heading-kicker"><span></span> NOSSOS PROGRAMAS <span></span></div>
+        <h2 id="plans-title">Escolha o programa ideal para você</h2>
+        <p>Diferentes opções para cuidar do seu sorriso em todas as fases da vida.</p>
+      </div>
+
+      <div class="plans-grid container">
+        <article class="plan-card" data-plan="essencial">
+          <img src="assets/plano_essencial.jpg" alt="Selo do Programa Essencial" class="plan-badge">
+          <h3>Essencial</h3>
+          <ul>
+            <li>1 consulta/ano</li>
+            <li>2 limpezas/ano</li>
+            <li>1 kit higiene oral na adesão</li>
+            <li>10% de desconto em procedimentos básicos <span>(restaurações, raios-x, clareamento, extrações simples)</span></li>
+          </ul>
+          <p class="price"><small>R$</small> 39<sup>,00</sup> <span>/mês</span></p>
+          <button class="button button-outline plan-more" type="button">Saiba mais <span aria-hidden="true">→</span></button>
+        </article>
+
+        <article class="plan-card featured" data-plan="mais">
+          <img src="assets/plano_mais_bronze.jpg" alt="Selo do Programa Mais" class="plan-badge">
+          <h3>Mais</h3>
+          <span class="badge-popular">MAIS VENDIDO</span>
+          <ul>
+            <li>2 consultas/ano</li>
+            <li>2 limpezas/ano</li>
+            <li>2 raios-x simples/ano</li>
+            <li>1 urgência/ano</li>
+            <li>Kit higiene oral na adesão</li>
+            <li>20% de desconto em procedimentos básicos e 10% nos demais</li>
+          </ul>
+          <p class="price"><small>R$</small> 59<sup>,00</sup> <span>/mês</span></p>
+          <button class="button button-filled plan-more" type="button">Saiba mais <span aria-hidden="true">→</span></button>
+        </article>
+
+        <article class="plan-card" data-plan="premium">
+          <img src="assets/plano_premium_prata.jpg" alt="Selo do Programa Premium" class="plan-badge">
+          <h3>Premium</h3>
+          <ul>
+            <li>2 consultas/ano</li>
+            <li>2 limpezas/ano</li>
+            <li>2 raios-x simples/ano</li>
+            <li>1 urgência/ano</li>
+            <li>Kit higiene oral na adesão</li>
+            <li>25% de desconto em procedimentos básicos e 15% nos demais</li>
+          </ul>
+          <p class="price"><small>R$</small> 79<sup>,00</sup> <span>/mês</span></p>
+          <button class="button button-outline plan-more" type="button">Saiba mais <span aria-hidden="true">→</span></button>
+        </article>
+
+        <article class="plan-card" data-plan="premium-plus">
+          <img src="assets/plano_premium_plus_ouro.jpg" alt="Selo do Programa Premium Plus" class="plan-badge">
+          <h3>Premium Plus</h3>
+          <ul>
+            <li>3 consultas/ano</li>
+            <li>3 limpezas/ano</li>
+            <li>3 raios-x simples/ano</li>
+            <li>1 urgência/ano</li>
+            <li>Kit higiene oral na adesão</li>
+            <li>30% de desconto em procedimentos básicos e 20% nos demais</li>
+          </ul>
+          <p class="price"><small>R$</small> 99<sup>,00</sup> <span>/mês</span></p>
+          <button class="button button-outline plan-more" type="button">Saiba mais <span aria-hidden="true">→</span></button>
+        </article>
+      </div>
+
+      <div class="family-card container" id="">
+        <div class=""><img src="assets/plano-familia2.png" alt="Ícone do Programa Família"></div>
+        <div class="family-title">
+          <p class="mini-label">PROGRAMA FAMÍLIA</p>
+          <h3>Clube do Sorriso Família</h3>
+          <p>Mais cuidado para quem você ama.</p>
+        </div>
+        <ul class="family-benefits">
+          <li>+1 limpeza por pessoa <span>(sem urgência)</span></li>
+          <li><strong>15% de desconto</strong> em básicos</li>
+          <li><strong>5% de desconto</strong> em implantes, próteses,<br>estética e ortodontia</li>
+        </ul>
+        <div class="family-aside">
+          <p>Porque sorrisos<br>saudáveis também<br>são momentos<br>em família.</p>
+          <button class="text-link plan-more" type="button" data-plan="familia">Saiba mais <span aria-hidden="true">→</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="why section" id="beneficios" aria-labelledby="why-title">
+      <div class="section-heading compact">
+        <div class="heading-kicker">POR QUE ESCOLHER O CLUBE DO SORRISO</div>
+        <h2 id="why-title">Mais do que um programa, um cuidado contínuo</h2>
+      </div>
+      <div class="benefits container">
+        <div class="benefit"><img src="assets/escudo_icon_red.png" alt="" class="benefit-icon"><p>Atendimento<br>humanizado</p></div>
+        <div class="benefit"><img src="assets/dente_icon_red.png" alt="" class="benefit-icon"><p>Profissionais<br>qualificados</p></div>
+        <div class="benefit"><img src="assets/check_icon_red.png" alt="" class="benefit-icon"><p>Programa acessível<br>e sem burocracia</p></div>
+        <div class="benefit"><img src="assets/coracao_icon_red.png" alt="" class="benefit-icon"><p>Prevenção para<br>uma vida melhor</p></div>
+        <div class="benefit"><img src="assets/sorriso_icon_red.png" alt="" class="benefit-icon"><p>Seu sorriso<br>em boas mãos</p></div>
+      </div>
+    </section>
+
+    <section class="hero-copy container" id="contato">  
+      <div class="section-heading compact">
+        <div class="heading-kicker"><span></span> SOBRE NÓS <span></span></div>
+          <h2 id="why-title">Somos a Odontoclinica Sorriso</h2>
+          <!--<p class="eyebrow">Clube do Sorriso</p>--> 
+          <!--<p>Proximo ao centro de nova prata.</p>-->
+      </div>   
+        <fieldset class="fieldset-arredondado">
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3496.5888215305113!2d-51.61298072525122!3d-28.791521974312214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951dc60fa516caed%3A0x5b3204e4f5702f35!2sOdontoclinica%20Sorriso!5e0!3m2!1spt-BR!2sbr!4v1791530077412!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+          <div class="sobre_contact">
+            <h2 id="why-title">Odontoclínica Sorriso</h2> 
+            <p class="descricao_endereco">
+              <strong>Endereço:</strong><br>
+              Rua Adolfo Cerri, 80 - Centro <br>Nova Prata - RS <br><br>
+              <strong>Atendimento:</strong><br>
+              Segunda a Sexta: 8:30 às 19:30 <br>
+              Sábado: 8:30 às 11:30 <br><br>
+
+
+
+              Telefone: (54) 3242-1025<br>
+              Whatsapp: (54) 9933-9237
+            </p>
+          </div>
+
+        </fieldset>
+    </section>
+
+    <section class="contact-band" id="contato" aria-label="Contato">
+      <div class="container contact-inner">
+        <div class="footer-brand">
+          <img src="assets/brand_clube_do_sorriso_footer2.png" alt="Logo" class="" width="150px"> 
+          <!--<span>odontoclínica</span>
+          <strong>Clube do Sorriso</strong>
+          <i aria-hidden="true"></i>-->
+        </div>
+        <div class="contact-item">
+          <ion-icon class="contact-symbol" name="logo-whatsapp"></ion-icon> 
+          <div><strong>Fale conosco</strong><p>Tire suas dúvidas e agende sua avaliação.</p><a class="contact-button" href="https://wa.me/5554999999999?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação." target="_blank" rel="noopener noreferrer">Chamar no WhatsApp <span>→</span></a></div>
+        </div>
+        <div class="contact-item clinic">
+          <ion-icon name="map-outline"></ion-icon>
+          <div><strong>Nossa clínica</strong><p>Nova Prata - RS</p><p>Estamos prontos para te receber!</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
+
+
+
+
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Clube do Sorriso <span>|</span> Odontoclínica Sorriso</p>
+      <p>Cuidando do seu sorriso em todas as fases da vida. <span class="footer-smile" aria-hidden="true">⌣</span></p>
+    </div>
+  </footer>
+
+  <dialog class="plan-dialog" id="plan-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-inner">
+      <button class="dialog-close" type="button" aria-label="Fechar">×</button>
+      <p class="mini-label">CLUBE DO SORRISO</p>
+      <h2 id="dialog-title">Programa</h2>
+      <p id="dialog-price" class="dialog-price"></p>
+      <ul id="dialog-features"></ul>
+      <a id="dialog-cta" class="button button-filled" href="https://wa.me/5554999999999?text=Olá!%20Quero%20saber%20mais%20sobre%20um%20plano%20do%20Clube%20do%20Sorriso." target="_blank" rel="noopener noreferrer">Quero saber mais →</a>
+    </div>
+  </dialog>
+</body>
+</html>
