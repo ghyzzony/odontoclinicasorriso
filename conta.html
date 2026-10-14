@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=no">
   <meta name="description" content="Clube do Sorriso — programas odontológicos acessíveis com atendimento de qualidade e foco na saúde bucal.">
   <title>Clube do Sorriso | Odontoclínica</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,7 +33,7 @@
         <a class="nav-link active" href="conta.html">Paciente</a>
       </nav>
 
-      <a class="header-cta" href="https://wa.me/5554999999999?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener noreferrer">
+      <a class="header-cta" href="https://wa.me/5554999339237?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener noreferrer">
         <ion-icon name="logo-whatsapp"></ion-icon>         
         Agende sua consulta
       </a>
@@ -79,9 +79,6 @@
     <!-- Fim Login -->
 
 
-
-
-
     <section class="contact-band" id="contato" aria-label="Contato">
       <div class="container contact-inner">
         <div class="footer-brand">
@@ -92,18 +89,21 @@
         </div>
         <div class="contact-item">
           <ion-icon class="contact-symbol" name="logo-whatsapp"></ion-icon> 
-          <div><strong>Fale conosco</strong><p>Tire suas dúvidas e agende sua avaliação.</p><a class="contact-button" href="https://wa.me/5554999999999?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação." target="_blank" rel="noopener noreferrer">Chamar no WhatsApp <span>→</span></a></div>
+          <div><strong>Fale conosco</strong><p>Tire suas dúvidas e agende sua avaliação.</p><a class="contact-button" href="https://wa.me/5554999339237?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação." target="_blank" rel="noopener noreferrer">Chamar no WhatsApp <span>→</span></a></div>
         </div>
-        <div class="contact-item clinic">
-          <ion-icon name="map-outline"></ion-icon>
-          <div><strong>Nossa clínica</strong><p>Nova Prata - RS</p><p>Estamos prontos para te receber!</p></div>
+        <div class="contact-item clinic"> 
+          <div>            
+            <a href="https://www.instagram.com/odontoclinicasorriso/" target="_blank">
+              <ion-icon class="symbol-Redes" name="logo-instagram"></ion-icon></a>        
+          </div> 
+          <div>
+            <a href="https://www.facebook.com/odontoclinica.sorriso/" target="_blank">
+              <ion-icon class="symbol-Redes" name="logo-facebook"></ion-icon></a>
+          </div>          
         </div>
       </div>
     </section>
   </main>
-
-
-
 
 
 
@@ -124,8 +124,30 @@
       <h2 id="dialog-title">Programa</h2>
       <p id="dialog-price" class="dialog-price"></p>
       <ul id="dialog-features"></ul>
-      <a id="dialog-cta" class="button button-filled" href="https://wa.me/5554999999999?text=Olá!%20Quero%20saber%20mais%20sobre%20um%20plano%20do%20Clube%20do%20Sorriso." target="_blank" rel="noopener noreferrer">Quero saber mais →</a>
+      <a id="dialog-cta" class="button button-filled" href="https://wa.me/5554999339237?text=Olá!%20Quero%20saber%20mais%20sobre%20um%20plano%20do%20Clube%20do%20Sorriso." target="_blank" rel="noopener noreferrer">Quero saber mais →</a>
     </div>
   </dialog>
 </body>
 </html>
+
+
+<!-- Button Whatsapp -->
+<a href="https://wa.me/5554999339237?text=Olá, estou entrando em contato através do site" style="position:fixed;width:50px;height:50px;bottom:15px;right:15px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:26px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank">
+      <div style="margin-top:10px"><ion-icon name="logo-whatsapp"></ion-icon></div>
+</a>
+
+
+<!-- Aceite do LGPD -->
+<div id="lgpd-toast" class="lgpd-toast">
+  <div class="lgpd-content">
+    <p>
+      Utilizamos cookies para personalizar sua experiência e otimizar o atendimento no site do <strong>Clube do Sorriso</strong>. Ao usar este site, você concorda com isso. <!-- Ao continuar navegando, você concorda com a nossa <a href="assets/politica-de-privacidade" class="lgpd-link">Política de Privacidade</a>. -->
+    </p>
+    <div class="lgpd-actions">
+      <button id="lgpd-accept" class="lgpd-btn lgpd-btn-accept" onclick="acceptLgpd()">Aceitar</button>
+      <!--<button id="lgpd-decline" class="lgpd-btn lgpd-btn-decline" onclick="closeLgpd()">Sair</button>-->
+    </div>
+  </div>
+</div>
+<!--Utilizamos cookies para oferecer a melhor experiência, melhorar o desempenho. Ao usar este site, você concorda com isso.-->

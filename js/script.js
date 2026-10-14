@@ -84,3 +84,23 @@
   }, { rootMargin: '-35% 0px -55% 0px' });
   sections.forEach((section) => observer.observe(section));
 })();
+
+
+/* mensagem da LGPD */
+function acceptLgpd() {
+  localStorage.setItem('lgpd_consent', 'accepted');
+  document.getElementById('lgpd-toast').style.display = 'none';
+}
+
+function closeLgpd() {
+  localStorage.setItem('lgpd_consent', 'essential');
+  document.getElementById('lgpd-toast').style.display = 'none';
+}
+
+// Verifica se o usuário já aceitou
+window.addEventListener('DOMContentLoaded', () => {
+  if (localStorage.getItem('lgpd_consent')) {
+    const toast = document.getElementById('lgpd-toast');
+    if (toast) toast.style.display = 'none';
+  }
+});
