@@ -1,0 +1,17 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FAFAFA;
+    color: #333333;
+}
+.smile-curve {
+    border-bottom: 3px solid #C80012;
+    border-radius: 50%;
+    height: 12px;
+    width: 110px;
+    margin: -6px auto 0 auto;
+}
+.footer-wave {
+    background-color: #C80012;
+    border-top-left-radius: 50% 20px;
+    border-top-right-radius: 50% 20px;
+}
